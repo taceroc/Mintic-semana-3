@@ -35,7 +35,6 @@ Vue.component('MisTareas',{
     //viven to[das las variables
     data()  {
         return {
-        titulo: "Tareas con Vue",
         sesion: 5,
         profesores: {
             'nombre': 'Daniel',
