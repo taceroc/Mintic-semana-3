@@ -10,13 +10,14 @@
     
     <div id="app" class="container mt-5">
         <h1 class="text-center">{{titulo}}<span> día {{sesion}}</span></h1>
+        <mis-tareas></mis-tareas>
         <!-- <p>
             {{profesores.nombre}}
             <span> - Cilo: </span>{{profesores.Ciclo}}
         </p> -->
 
         <!-- v-model: conecta campo de texto con la variable nuevaTarea -->
-        <input type="text" class="form-control mt-5" v-model="nuevaTarea" 
+        <!-- <input type="text" class="form-control mt-5" v-model="nuevaTarea" 
         v-on:keyup.enter="agregarTarea">
         <button class="btn btn-success mt-2 w-100" v-on:click="agregarTarea">
             Agregar Tarea</button>
@@ -39,10 +40,8 @@
                     </div>  
                 </div>
             </div>
+       </div> -->
 
-          <!-- <pre> {{ $data }}</pre> -->
-       </div>
-        <!-- mostrar el objeto de data -->
 
 
 
@@ -55,6 +54,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./componets/MisTareas.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
