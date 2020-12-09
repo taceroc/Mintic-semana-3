@@ -50,10 +50,12 @@ export default {
                 localStorage.setItem('user', JSON.stringify(user))
 
                 if(token){
+                    swal("Exito!!", "Login Correcto", "success");
                     this.$router.push('/home');
                 }
             }
-            catch{
+            catch (e){
+              swal("Oops!", "Algo salio mal", "error");
 
             }
         }

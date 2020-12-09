@@ -4,3 +4,21 @@
     <p>Hola componente de home</p>
 </div>
 </template>
+
+<script>
+export default {
+    data(){
+        return{
+
+        }
+    },
+    methods: {
+        getUserDetails(){
+
+        },
+        logOut(){
+            
+        }
+    }
+}
+</script>
