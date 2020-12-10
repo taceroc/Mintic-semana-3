@@ -2,8 +2,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 const UserModel = require("./users.js");
 
 const sequelize = new Sequelize('9dHYgiyygc', '9dHYgiyygc', '3EoOFVN3vA', {
-    host: 'localhost',
-    port: '3307',
+    host: 'remotemysql.com',
     dialect: 'mysql'
   });
 
