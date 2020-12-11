@@ -4,7 +4,7 @@ import router from './router';
 import axios from 'axios';
 
 const base = axios.create({
-  baseURL: "http://localhost:3000"
+  baseURL: "http://localhost:3000/"
 });
 
 Vue.prototype.$http = base;
