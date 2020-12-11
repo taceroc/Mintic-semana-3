@@ -20,11 +20,14 @@ app.use(bodyParser.urlencoded({ extended: true}));
 
 
 //primera ruta
-// app.get('/', (req, res) => {
-//     res.send("Hello World!");
-// });
+app.get('/', (req, res) => {
+    res.send("Hello World!");
+});
 
 //manejador rutas
+app.get('/api', (req, res) => {
+    res.send("Api!");
+});
 app.use('/api', apiRouter);
 
 app.set('PORT',3000);
