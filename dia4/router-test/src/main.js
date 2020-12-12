@@ -5,7 +5,8 @@ import axios from 'axios'
 
 
 const base = axios.create({
-  baseURL : 'https://glacial-everglades-74306.herokuapp.com'
+  //baseURL : 'https://glacial-everglades-74306.herokuapp.com'
+  baseURL: 'http://localhost:3000'
 })
 
 Vue.config.productionTip = false;
